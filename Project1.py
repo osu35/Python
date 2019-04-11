@@ -18,24 +18,8 @@ AktualnaDominanta = arrays[0]
 LiczbaAD = 0
 Nowa = 0
 LiczbaNowej = 0
-for array in arrays:
-    if array == AktualnaDominanta:
-        LiczbaAD+=1
-    else:
-        Nowa = array
-        while Nowa == array
-            LiczbaNowej+=1
-            array+=1
-    if LiczbaAD > LiczbaNowej:
-        LiczbaNowej = 0
-    elif LiczbaAD == LiczbaNowej:
-        print("Nie ma w tej tablicy dominanty!")
-    else :
-        AktualnaDominanta = Nowa
-        LiczbaAD = Nowa
-        Nowa = 0
 
-if LiczbaAD > LiczbaNowej:
-    print(AktualnaDominanta)
-else :
-    print(Nowa)
+x = "mateusz osinski"
+print(x.title())
+
+arrays.append(4)
